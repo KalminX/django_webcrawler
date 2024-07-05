@@ -5,7 +5,7 @@
     <p class="lead">Python program to crawl a web page and get most frequent words!</p>
     <hr class="my-4">
     <p>The task is to count the most frequent words, which extracts data from dynamic sources.</p>
-    <form method="post" action="{% url 'crawl_view' %}">
+    <form method="post" action="{% url 'crawl_result_view' %}">
         {% csrf_token %}
         {{ form.as_p }}
         <input class="btn btn-primary" type="submit" name="Send">
