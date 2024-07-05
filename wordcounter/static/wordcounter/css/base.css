@@ -1,0 +1,12 @@
+body {
+  background-image: url("../images/web_spider.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.jumbotron {
+  margin: 2em;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+  background: #0C1844;
+}
